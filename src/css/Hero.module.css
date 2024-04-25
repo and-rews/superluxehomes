@@ -1,5 +1,5 @@
 .hero {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -39,7 +39,7 @@
 }
 
 .btn {
-  background-color: #2e2e2e;
+  background-color: #f36f27;
   padding: 0.7rem 1.5rem;
   display: grid;
   margin: auto;
@@ -79,7 +79,8 @@
 }
 
 .btn:hover {
-  background-color: #f36f27;
+  background-color: #0c1b2e;
+  transition: 0.5s;
 }
 
 @media (max-width: 768px) {

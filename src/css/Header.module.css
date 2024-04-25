@@ -1,4 +1,7 @@
 .header {
+  position: absolute;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,9 +39,9 @@
 .icons {
   display: flex;
   align-items: center;
-  background-color: #2e2e2e;
+  background-color: #fff;
   padding: 0.4rem 1rem;
-  color: #fff;
+  color: #0c1b2e;
   border-radius: 25px;
   cursor: pointer;
 }
@@ -87,8 +90,8 @@
   .icon2 {
     display: flex !important;
     align-items: center;
-    background-color: #2e2e2e;
-    color: #fff;
+    background-color: #fff;
+    color: #0c1b2e;
     border-radius: 25px;
   }
 
