@@ -1,0 +1,94 @@
+/* app/css/News.module.css */
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.description {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #6e6e6e;
+}
+
+.newsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.newsCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.newsCard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imageContainer {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.newsTitle {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.newsDescription {
+  margin-bottom: 0.8rem;
+  color: #6e6e6e;
+}
+
+.newsDate {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.readMoreButton {
+  background-color: #0c1b2e;
+  padding: 0.7rem 1.5rem;
+  border-radius: 25px;
+  margin-left: 0.5rem;
+  color: #fff;
+}
+
+.readMoreButton:hover {
+  background-color: #f36f27;
+  transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .newsGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

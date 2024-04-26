@@ -1,14 +1,16 @@
 .header {
+  width: 70%;
   position: absolute;
   left: 0;
   right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 3rem;
+  padding: 1rem 0;
   background-color: rgba(165, 42, 42, 0);
   color: white;
   font-weight: 700;
+  margin: auto;
 }
 
 .nav {
@@ -62,7 +64,8 @@
 
 @media (max-width: 768px) {
   .header {
-    padding: 1rem;
+    width: 90%;
+    padding: 1rem 0;
   }
 
   .nav {

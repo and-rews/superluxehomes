@@ -4,6 +4,9 @@ import Header from "../src/components/Header";
 import Hero from "../src/components/Hero";
 import Explore from "../src/components/Explore";
 import Latest from "../src/components/Latest";
+import PropertyTypes from "../src/components/PropertyTypes";
+import News from "../src/components/News";
+import Contact from "../src/components/Contact";
 
 export default function Home() {
   return (
@@ -12,6 +15,9 @@ export default function Home() {
       <Hero />
       <Explore />
       <Latest />
+      <PropertyTypes />
+      <News />
+      <Contact />
     </main>
   );
 }

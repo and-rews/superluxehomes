@@ -1,0 +1,115 @@
+/* app/css/Contact.module.css */
+.container {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("/images/contact-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 2rem;
+  color: #fff;
+}
+
+.overlay {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.writeup {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.contactInfo {
+  margin-bottom: 2rem;
+}
+
+.infoItem {
+  margin-bottom: 1rem;
+}
+
+.infoTitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoText {
+  font-size: 1rem;
+}
+
+.form {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.formTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.formInput,
+.formTextarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #000;
+}
+
+.formTextarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.formButton {
+  background-color: #0c1b2e;
+  padding: 0.7rem 1.5rem;
+  display: grid;
+  margin: auto;
+  border-radius: 25px;
+  margin-left: 0.5rem;
+  color: #fff;
+}
+
+.formButton:hover {
+  background-color: #f36f27;
+  transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .overlay {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
