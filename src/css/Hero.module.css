@@ -1,8 +1,4 @@
 .hero {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
   z-index: -2;
   display: grid;
   justify-content: center;
@@ -39,7 +35,7 @@
 }
 
 .btn {
-  background-color: #f36f27;
+  background-color: #0c1b2e;
   padding: 0.7rem 1.5rem;
   display: grid;
   margin: auto;
@@ -79,7 +75,7 @@
 }
 
 .btn:hover {
-  background-color: #0c1b2e;
+  background-color: #f36f27;
   transition: 0.5s;
 }
 

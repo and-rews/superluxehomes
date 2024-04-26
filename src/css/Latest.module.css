@@ -1,0 +1,161 @@
+/* app/css/Latest.module.css */
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.description {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #6e6e6e;
+}
+
+.slide {
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.favoriteButton {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  padding: 0.1rem 0.4rem;
+  cursor: pointer;
+}
+
+.favoriteIcon {
+  color: #f36f27;
+  font-size: 1rem;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.propertyName {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.propertyFeatures {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.6rem;
+}
+
+.featureIcon {
+  margin-right: 0.5rem;
+  color: #666;
+}
+
+.propertyDetails {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.location {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.propertyStatus {
+  position: absolute;
+  top: 25px;
+}
+
+.forSale {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.forRent {
+  background-color: #2196f3;
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.viewDetailsButton {
+  display: inline-block;
+  background-color: #0c1b2e;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.viewDetailsButton:hover {
+  background-color: #f36f27;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+}
