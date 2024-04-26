@@ -84,6 +84,7 @@ const Latest = () => {
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
+          pauseOnMouseEnter: true,
         }}
         loop={true}
         slidesPerView={1}
