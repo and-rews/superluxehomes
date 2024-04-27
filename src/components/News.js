@@ -1,4 +1,3 @@
-// app/components/News.jsx
 import React from "react";
 import styles from "../css/News.module.css";
 import Image from "next/image";
