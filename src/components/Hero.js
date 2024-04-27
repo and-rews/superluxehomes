@@ -29,7 +29,6 @@ const Hero = () => {
             onChange={(e) => setPropertyType(e.target.value)}
             className={`${styles.input} ${styles.selectInput}`}
             style={{
-              borderBottomLeftRadius: "25px",
               borderRight: "1px solid #f4f4f4",
             }}
           >
@@ -61,7 +60,7 @@ const Hero = () => {
             value={searchKeyword}
             onChange={(e) => setSearchKeyword(e.target.value)}
             className={`${styles.input} ${styles.selectInput2}`}
-            style={{ borderRight: "1px solid #f4f4f4" }}
+            style={{ borderRight: "1px solid #888888" }}
           />
           <button onClick={handleSearch} className={styles.btn}>
             Search
