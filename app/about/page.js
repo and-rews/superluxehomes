@@ -10,7 +10,7 @@ import Contact from "../../src/components/Contact";
 import Services from "../../src/components/Services";
 import Footer from "../../src/components/Footer";
 
-export default function Home() {
+export default function About() {
   return (
     <main>
       <Header />
