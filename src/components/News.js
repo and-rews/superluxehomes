@@ -7,7 +7,7 @@ import Link from "next/link";
 const newsArticles = [
   {
     id: 1,
-    title: "Housing Market Trends for 2023",
+    title: "Professional and ",
     description:
       "Stay ahead of the curve with our expert analysis on the latest housing market trends for ...",
     image: "/images/news1.jpg",
@@ -34,38 +34,11 @@ const newsArticles = [
 const News = () => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Latest Blog</h2>
+      <h2 className={styles.title}>SuperLuxe Homes</h2>
       <p className={styles.description}>
-        Stay up-to-date with the latest real estate news, trends, and insights.
+        Your One-Stop Shop for Real Estate: Buy, rent, or invest with
+        confidence. We are here to guide you.
       </p>
-      <div className={styles.newsGrid}>
-        {newsArticles.map((article) => (
-          <div key={article.id} className={styles.newsCard}>
-            <div className={styles.imageContainer}>
-              <Image
-                src={article.image}
-                alt={article.title}
-                width={400}
-                height={300}
-                className={styles.image}
-              />
-            </div>
-            <div className={styles.content}>
-              <h3 className={styles.newsTitle}>{article.title}</h3>
-              <p className={styles.newsDescription}>{article.description}</p>
-              <p className={styles.newsDate}>
-                {new Date(article.date).toLocaleDateString()}
-              </p>
-              <Link
-                href={`/news/${article.id}`}
-                className={styles.readMoreButton}
-              >
-                Read More
-              </Link>
-            </div>
-          </div>
-        ))}
-      </div>
     </div>
   );
 };
