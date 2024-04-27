@@ -9,7 +9,7 @@ const newsArticles = [
     id: 1,
     title: "Housing Market Trends for 2023",
     description:
-      "Stay ahead of the curve with our expert analysis on the latest housing market trends for 2023.",
+      "Stay ahead of the curve with our expert analysis on the latest housing market trends for ...",
     image: "/images/news1.jpg",
     date: "2023-05-01",
   },
@@ -17,7 +17,7 @@ const newsArticles = [
     id: 2,
     title: "Green Homes on the Rise",
     description:
-      "Discover the growing trend of sustainable and eco-friendly homes, and how you can embrace a greener lifestyle.",
+      "Discover the growing trend of sustainable and eco-friendly homes, and how you can embrace...",
     image: "/images/news2.jpeg",
     date: "2023-04-15",
   },
@@ -34,7 +34,7 @@ const newsArticles = [
 const News = () => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Latest News</h2>
+      <h2 className={styles.title}>Latest Blog</h2>
       <p className={styles.description}>
         Stay up-to-date with the latest real estate news, trends, and insights.
       </p>

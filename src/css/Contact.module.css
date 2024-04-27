@@ -5,7 +5,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.7)
     ),
-    url("/images/contact-bg.jpg");
+    url("/images/contact.jpg");
   background-size: cover;
   background-position: center;
   padding: 4rem 2rem;
@@ -13,14 +13,14 @@
 }
 
 .overlay {
-  max-width: 70%;
+  max-width: 80%;
   margin: 0 auto;
 }
 
 .content {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .writeup {

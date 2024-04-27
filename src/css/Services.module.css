@@ -1,0 +1,49 @@
+/* app/css/BetterServices.module.css */
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.serviceCard {
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  font-size: 3rem;
+  color: #f36f27;
+}
+
+.serviceTitle {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.serviceDescription {
+  font-size: 1rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .servicesGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
