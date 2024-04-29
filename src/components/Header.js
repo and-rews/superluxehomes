@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -37,7 +35,7 @@ const Header = () => {
       >
         <ul className={styles.navitems}>
           <li>
-            <Link href="/home">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
             <Link href="/about">About</Link>
